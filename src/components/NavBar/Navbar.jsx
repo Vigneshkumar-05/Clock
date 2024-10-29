@@ -1,13 +1,11 @@
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 import { RiTimerFill } from "react-icons/ri";
 import { IoTimer } from "react-icons/io5";
 
 import NavItem from "./NavItem";
 
 function Navbar() {
-  const active = useLocation();
   const navigate = useNavigate();
 
   return (

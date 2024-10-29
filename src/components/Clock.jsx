@@ -1,4 +1,3 @@
-import { min } from "d3";
 import React from "react";
 
 function Clock({ hour, minute, second, totalTime, isPaused }) {
