@@ -21,7 +21,7 @@
         }
 
         to {
-            stroke-dashoffset: 756px;
+            stroke-dashoffset: 738px;
         }
     }
 
@@ -34,7 +34,7 @@
     }
 
     .stroke-3 {
-        stroke-width: 0.6rem;
+        stroke-width: 0.5rem;
     }
 
     .animate-countdown {

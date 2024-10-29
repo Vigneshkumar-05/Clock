@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StopWatch from "./pages/StopWatch.jsx";
 import Timer from "./pages/Timer.jsx";
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./components/NavBar/Navbar.jsx";
 
 function App() {
   return (

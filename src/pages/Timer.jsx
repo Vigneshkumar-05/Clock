@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+
 import Button from "../components/Button";
 import Clock from "../components/Clock";
 import Label from "../components/Label";
@@ -118,8 +119,8 @@ function Timer() {
       )}
       <br />
 
-      {/* Button */}
-      <div className="w-72 mt-5 flex justify-between">
+      {/* Buttons */}
+      <div className="w-72 flex justify-between">
         <Button buttonName={"Cancel"} onClick={handleCancel} />
         <span className="text-5xl text-white">
           .<span className="text-5xl first-:text-white text-gray-600">.</span>

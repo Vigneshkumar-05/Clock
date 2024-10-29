@@ -12,7 +12,7 @@ function Label({ label, setLabel }) {
         </label>
         <input
           type="text"
-          name="label"
+          id="label"
           placeholder="Timer"
           value={label}
           onChange={(e) => setLabel(e.target.value)}

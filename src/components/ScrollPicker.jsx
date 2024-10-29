@@ -11,7 +11,7 @@ function ScrollPicker({ data, onScroll, unit, picker }) {
           <span
             className={`text-white text-center ${
               index === picker
-                ? "text-xl bg-gray-800 rounded-full p-1"
+                ? "text-xl bg-gray-700 rounded-full p-1"
                 : "opacity-30"
             }`}
             key={index}
