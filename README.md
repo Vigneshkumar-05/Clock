@@ -1,1 +1,1 @@
-# Clock Application
+# Electron application
