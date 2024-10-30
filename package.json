@@ -1,16 +1,4 @@
 {
-  "name": "timer",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "main": "./electron/main.cjs",
-  "scripts": {
-    "dev": "vite",
-    "electron": "set IS_DEV=true && electron .",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -33,5 +21,17 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.9"
-  }
+  },
+  "main": "./electron/main.cjs",
+  "name": "timer",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "electron": "set IS_DEV=true && electron .",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "version": "0.0.0"
 }

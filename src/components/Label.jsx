@@ -3,7 +3,7 @@ import React from "react";
 function Label({ label, setLabel }) {
   return (
     <div className="mt-10 w-3/12 h-12 p-1 bg-gray-900">
-      <form className="h-full flex justify-between items-center">
+      <form className="max-w-full min-h-full flex justify-between items-center flex-wrap">
         <label
           htmlFor="label"
           className="h-full text-gray-200 pl-4 flex items-center"
