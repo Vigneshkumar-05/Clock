@@ -1,7 +1,6 @@
-"use-strict"
+"use strict";
 
 const { app, BrowserWindow } = require("electron");
-const path = require("path");
 
 let mainWindow;
 
@@ -16,7 +15,8 @@ function createMainWindow() {
         },
     }
     );
-    const startURL = process.env.IS_DEV ? 'http://localhost:5173/' : `file://${path.join(__dirname, "../build/index.html")}`;
+
+    const startURL = process.env.IS_DEV ? "http://localhost:5173/" : `file://${__dirname}/index.html`;
     mainWindow.loadURL(startURL);
 
     mainWindow.once("ready-to-show", () => {
