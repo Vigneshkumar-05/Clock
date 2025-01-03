@@ -1,8 +1,8 @@
 type ScrollPickerType = {
-  data: any;
-  onScroll: any;
-  unit: any;
-  picker: any;
+  data: number[];
+  onScroll: (e: React.UIEvent) => void;
+  unit: string;
+  picker: number;
 };
 
 function ScrollPicker({ data, onScroll, unit, picker }: ScrollPickerType) {
@@ -12,7 +12,7 @@ function ScrollPicker({ data, onScroll, unit, picker }: ScrollPickerType) {
         className="h-20 overflow-y-scroll no-scrollbar flex flex-col text-white"
         onScroll={onScroll}
       >
-        {data.map((d: any, index: number) => (
+        {data.map((d: number, index: number) => (
           <span
             className={`text-white text-center ${
               index === picker

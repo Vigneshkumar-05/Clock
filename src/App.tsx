@@ -1,10 +1,9 @@
-import React from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
-import StopWatch from "./pages/StopWatch";
-import Timer from "./pages/Timer";
+import StopWatch from "./components/Stopwatch/StopWatch";
+import Timer from "./components/Timer/Timer";
 import Navbar from "./components/NavBar/Navbar";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="m-0 p-0 box-border h-screen font-poppins">
       <HashRouter>
